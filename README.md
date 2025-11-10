@@ -1,5 +1,5 @@
 # 3-Command-LLM-Launch
-Launch a local, browser-based LLM (Gemma 2B/Llama 3) with Ollama and Open WebUI in just 3 terminal commands. Requires Docker.
+Launch a local, browser-based LLM with Ollama and Open WebUI in just 3 terminal commands. Requires Docker.
 
 This repository provides the fastest, most reliable way to get a complete, self-hosted, lightweight Large Language Model (LLM) chat interface running on your local machine. By leveraging Docker and Ollama.
 
