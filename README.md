@@ -58,3 +58,31 @@ docker stop open-webui ollama
 
 # Remove the containers (Optional: Only if you want a clean restart)
 docker rm open-webui ollama
+
+++++++++++++++++++++++++++++
+
+Single-Command Launch (Using yaml file)
+
+If you use the provided docker-compose.yml file, you can launch the entire infrastructure with almost a single command.
+
+Setup (One-Time)
+
+    Copy the docker-compose.yml file into a new folder.
+
+    Navigate to that folder in your terminal.
+
+The 2 Commands
+
+Execute these two commands sequentially.
+
+Command 1: Start the Server and UI Stack
+
+This launches both the Ollama server and the Open WebUI interface in the background.
+
+docker compose up -d
+
+Command 2: Download the Lightweight LLM (Gemma 2B)
+
+This command executes inside the running Ollama container to download the model weights.
+
+docker exec -it ollama ollama pull gemma:2b
