@@ -19,7 +19,7 @@ services:
       - ollama_data:/root/.ollama
     restart: unless-stopped
     environment:
-      # This is crucial for Open WebUI to connect to Ollama within the Docker network
+      # This is to Open WebUI to connect to Ollama within the Docker network
       - OLLAMA_HOST=0.0.0.0:11434
 
   open-webui:
