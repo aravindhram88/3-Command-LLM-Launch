@@ -53,15 +53,15 @@ Cleanup and Stopping the Services
 
 To stop and remove both containers and free up system resources, run these two simple commands:
 
-# Stop the running containers
+Stop the running containers
 docker stop open-webui ollama
 
-# Remove the containers (Optional: Only if you want a clean restart)
+Remove the containers (Optional: Only if you want a clean restart)
 docker rm open-webui ollama
 
 ++++++++++++++++++++++++++++
 
-Single-Command Launch (Using yaml file)
+# Single-Command Launch (Using yaml file)
 
 If you use the provided docker-compose.yml file, you can launch the entire infrastructure with almost a single command.
 
