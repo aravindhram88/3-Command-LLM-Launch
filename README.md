@@ -21,7 +21,9 @@ This downloads the Ollama image, starts the container, and exposes the model ser
 
     docker run -d --gpus all --name ollama -p 11434:11434 -v ollama:/root/.ollama ollama/ollama
 
-GPU Note: If you do not have an NVIDIA GPU, you must remove the --gpus all flag: docker run -d --name ollama -p 11434:11434 -v ollama:/root/.ollama ollama/ollama
+GPU Note: If you do not have an NVIDIA GPU, you must remove the --gpus all flag: this will let the LLM use the just CPU of the machine the docker is installed
+
+    docker run -d --name ollama -p 11434:11434 -v ollama:/root/.ollama ollama/ollama
 
 Command 2: Download the Lightweight LLM (Gemma 2B)
 
