@@ -3,7 +3,7 @@ Launch a local, browser-based LLM (Gemma 2B/Llama 3) with Ollama and Open WebUI 
 
 This repository provides the fastest, most reliable way to get a complete, self-hosted, lightweight Large Language Model (LLM) chat interface running on your local machine. By leveraging Docker and Ollama.
 
-Prerequisites (Install Docker Desktop)
+## Prerequisites (Install Docker Desktop)
 
 The entire workflow relies on containerization. You must have Docker Desktop installed, running, and logged in before starting.
 
@@ -11,7 +11,7 @@ Download Docker Desktop: https://docs.docker.com/desktop/
 
 You will also need to open a Command Prompt, PowerShell, or Terminal with sufficient permissions.
 
-The 3 Commands to Launch
+## The 3 Commands to Launch
 
 Execute these three commands sequentially in your terminal. They will set up the server, pull the model, and launch the web interface.
 
