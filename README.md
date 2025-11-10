@@ -31,11 +31,11 @@ This command executes inside the running Ollama container to download the fast, 
 
     docker exec -it ollama ollama pull gemma:2b
 
-Model Customization: Feel free to swap gemma:2b for other lightweight models:
+Model Customization: Feel free to swap gemma:2b for other lightweight models (I have given Llama3 & Phi3Mini here):
 
-    docker exec -it ollama ollama pull llama3:8b (Balance of power and size)
+    docker exec -it ollama ollama pull llama3:8b
 
-    docker exec -it ollama ollama pull phi3:mini (Microsoft's small model)
+    docker exec -it ollama ollama pull phi3:mini
 
 Command 3: Launch the Open Web UI Chat Interface
 
