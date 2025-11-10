@@ -37,7 +37,7 @@ docker exec -it ollama ollama pull gemma:2b
 
 Command 3: Launch the Open Web UI Chat Interface
 
-This starts the beautiful web interface and links it to the Ollama server running in the background.
+This starts the web interface and links it to the Ollama server running in the background.
 
 docker run -d --name open-webui -p 3000:8080 -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://host.docker.internal:11434 ghcr.io/open-webui/open-webui:main
 
